@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ddd;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body > *
+{
+    padding: 1%;
+}
+
+header
+{
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+
+    padding: 1% 0 1% 0;
+    margin-top: -5%;
+
+    font-size: 130%;
+    letter-spacing: 5px;
+}
+
+main
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+main > input
+{
+    padding: 10% 200% 10% 10%;
+
+    text-align: start;
+
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main > button
+{
+    color: #fff;
+    background-color: rgba(46, 42, 255, 0.808);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    padding: 10% 12% 10% 12%;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+section
+{
+    padding: 2.5% 5% 0 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div
+{
+    margin: 2.5%;
+    padding: 1%;
+    gap: 2.5%;
+
+    max-width: 90%;
+
+    display: flex;
+    justify-content: start;
+
+    overflow-x: scroll;
+
+    scrollbar-color: rgba(46, 42, 255, 0.808) #ddd;
+}
+
+section > div > div
+{
+    min-width: 30%;
+
+    padding: 2.5% 1.5% 2.5% 1.5%;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+
+    border-radius: 15px;
+}
+
+section > div > div > p
+{
+    margin-top: 5%;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    color: #5a5a5a;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
